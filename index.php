@@ -4,7 +4,7 @@ require_once('rl_init.php');
 ignore_user_abort(true);
 login_check();
 
-// If configs/files.lst is not writable, give a warning
+// If configs/files.lst is not writable, give a warning 
 if (!is__writable(CONFIG_DIR . 'files.lst')) html_error(lang(304));
 
 // If the download path is not writable, show error
